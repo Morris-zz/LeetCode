@@ -16,18 +16,29 @@
 // 
 // Related Topics 位运算 数组 分治算法
 
-  
-package leetcode.editor.cn;
-public class MajorityElement{
-    public static void main(String[] args) {
-         Solution solution = new MajorityElement().new Solution();
-    }
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int majorityElement(int[] nums) {
 
+package leetcode.editor.cn;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+
+public class MajorityElement {
+    public static void main(String[] args) {
+        Solution solution = new MajorityElement().new Solution();
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int majorityElement(int[] nums) {
+            ArrayList<Integer> list = new ArrayList<>(nums.length);
+            for (int i = 0; i < nums.length; i++) {
+                list.add(nums[i]);
+            }
+            list.sort(Comparator.comparingInt(Integer::intValue));
+            int i = list.size() / 2;
+            return list.get(i);
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}

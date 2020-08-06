@@ -2,3 +2,16 @@
 .idea
 *.json
 *.xml
+target/classes/leetcode/editor/cn/ExcelSheetColumnTitle$Solution.class
+target/classes/leetcode/editor/cn/ExcelSheetColumnTitle.class
+target/classes/leetcode/editor/cn/IntersectionOfTwoLinkedLists$ListNode.class
+target/classes/leetcode/editor/cn/IntersectionOfTwoLinkedLists$Solution.class
+target/classes/leetcode/editor/cn/IntersectionOfTwoLinkedLists.class
+target/classes/leetcode/editor/cn/PascalsTriangleIi$Solution.class
+target/classes/leetcode/editor/cn/PascalsTriangleIi.class
+target/classes/leetcode/editor/cn/SubstringWithConcatenationOfAllWords$Solution.class
+target/classes/leetcode/editor/cn/SubstringWithConcatenationOfAllWords.class
+target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted$Solution.class
+target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted.class
+target/generated-sources/
+target
