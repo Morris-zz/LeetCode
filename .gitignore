@@ -15,3 +15,7 @@ target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted$Solution.class
 target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted.class
 target/generated-sources/
 target
+*.png
+*.md
+/src/main/java/leetcode/editor/cn/doc/
+
